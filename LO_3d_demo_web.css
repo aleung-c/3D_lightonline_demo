@@ -1,0 +1,48 @@
+body {
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: #FFFFFF;
+	font-family: 'Roboto', sans-serif; 
+}
+
+h1 {
+	display: block;
+	color: #113256;
+	background-color: #ffd40b;
+	padding:8px;
+	font-size: 1em;
+	width: auto;
+}
+
+#demo_container {
+	display: block;
+	float : left;
+}
+
+#body_container {
+background-color: #EEEEEE;
+padding-top:4px;
+padding-left:16px;
+	
+}
+
+#howoto_container {
+	display: block;
+	clear: both;
+	padding-left: 7%;
+	padding-right: auto;
+}
+
+#howoto_container p {
+	font-size: 1em;
+}
+
+p.text_strong {
+	font-weight: bold;
+}
+
+p#copyrights {
+	font-size: 0.7em;
+	text-align: right;
+	padding: 3px;
+}
