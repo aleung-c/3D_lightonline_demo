@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -9,13 +10,449 @@
 	<body id="body">
 	<script src="scripts/three.min.js"></script>
 		<h1>Demo 3D Light Online</h1>
-		<div id="body_container">
+		
 			
 			<div id="demo_container">
 				<script>
-					var _0xc15f=["\x69\x6E\x6E\x65\x72\x57\x69\x64\x74\x68","\x69\x6E\x6E\x65\x72\x48\x65\x69\x67\x68\x74","\x79","\x70\x6F\x73\x69\x74\x69\x6F\x6E","\x7A","\x61\x64\x64","\x74\x65\x78\x74\x75\x72\x65\x73\x2F\x54\x69\x6C\x65\x61\x62\x6C\x65\x57\x6F\x6F\x64\x4C\x61\x72\x67\x65\x2E\x6A\x70\x67","\x6C\x6F\x61\x64\x54\x65\x78\x74\x75\x72\x65","\x49\x6D\x61\x67\x65\x55\x74\x69\x6C\x73","\x77\x72\x61\x70\x53","\x52\x65\x70\x65\x61\x74\x57\x72\x61\x70\x70\x69\x6E\x67","\x77\x72\x61\x70\x54","\x78","\x72\x65\x70\x65\x61\x74","\x77\x72\x61\x70\x41\x72\x6F\x75\x6E\x64","\x72\x65\x63\x65\x69\x76\x65\x53\x68\x61\x64\x6F\x77","\x63\x61\x73\x74\x53\x68\x61\x64\x6F\x77","\x72\x6F\x74\x61\x74\x69\x6F\x6E","\x50\x49","\x64\x6F\x75\x62\x6C\x65\x53\x69\x64\x65\x64","\x73\x69\x64\x65","\x44\x6F\x75\x62\x6C\x65\x53\x69\x64\x65","\x74\x65\x78\x74\x75\x72\x65\x73\x2F\x70\x61\x70\x69\x65\x72\x5F\x70\x65\x69\x6E\x74\x5F\x31\x2E\x6A\x70\x67","\x6D\x6F\x64\x65\x6C\x73\x2F\x53\x6F\x66\x61\x33\x2E\x6A\x73","\x73\x65\x74","\x73\x63\x61\x6C\x65","\x6C\x6F\x61\x64","\x6D\x6F\x64\x65\x6C\x73\x2F\x4C\x6F\x77\x5F\x74\x61\x62\x6C\x65\x32\x2E\x6A\x73","\x6D\x61\x74\x65\x72\x69\x61\x6C","\x6D\x6F\x64\x65\x6C\x73\x2F\x77\x68\x69\x74\x65\x5F\x6B\x69\x74\x63\x68\x65\x6E\x5F\x74\x61\x62\x6C\x65\x2E\x6A\x73","\x6D\x6F\x64\x65\x6C\x73\x2F\x6B\x69\x64\x73\x5F\x73\x68\x65\x6C\x76\x65\x73\x2E\x6A\x73","\x6D\x6F\x64\x65\x6C\x73\x2F\x66\x72\x69\x64\x67\x65\x2E\x6A\x73","\x74\x61\x72\x67\x65\x74","\x6F\x6E\x6C\x79\x53\x68\x61\x64\x6F\x77","\x73\x68\x61\x64\x6F\x77\x44\x61\x72\x6B\x6E\x65\x73\x73","\x73\x68\x61\x64\x6F\x77\x43\x61\x6D\x65\x72\x61\x56\x69\x73\x69\x62\x6C\x65","\x73\x68\x61\x64\x6F\x77\x43\x61\x6D\x65\x72\x61\x4E\x65\x61\x72","\x73\x68\x61\x64\x6F\x77\x43\x61\x6D\x65\x72\x61\x46\x61\x72","\x2F\x6D\x6F\x64\x65\x6C\x73\x2F\x74\x61\x62\x6C\x65\x5F\x6C\x61\x6D\x70\x5F\x6F\x62\x6A\x2F\x70\x61\x6E\x74\x61\x6C\x6C\x61\x5F\x63\x6F\x6C\x6F\x72\x2E\x6A\x70\x67","\x6D\x6F\x64\x65\x6C\x73\x2F\x74\x61\x62\x6C\x65\x5F\x6C\x61\x6D\x70\x5F\x6F\x62\x6A\x2F\x74\x61\x62\x6C\x65\x5F\x6C\x61\x6D\x70\x2E\x6A\x73","\x73\x6C\x69\x67\x68\x74\x5F\x78\x5F\x73\x65\x74","\x73\x6C\x69\x67\x68\x74\x5F\x79\x5F\x73\x65\x74","\x73\x6C\x69\x67\x68\x74\x5F\x7A\x5F\x73\x65\x74","\x70\x6C\x69\x67\x68\x74\x5F\x78\x5F\x73\x65\x74","\x70\x6C\x69\x67\x68\x74\x5F\x79\x5F\x73\x65\x74","\x70\x6C\x69\x67\x68\x74\x5F\x7A\x5F\x73\x65\x74","\x73\x68\x61\x70\x65\x5F\x78\x5F\x73\x65\x74","\x73\x68\x61\x70\x65\x5F\x79\x5F\x73\x65\x74","\x73\x68\x61\x70\x65\x5F\x7A\x5F\x73\x65\x74","\x65\x6D\x69\x73\x73\x69\x76\x65","\x61\x63\x74\x69\x76\x65","\x6D\x6F\x64\x65\x6C\x73\x2F\x6C\x69\x76\x69\x6E\x67\x5F\x6C\x61\x6D\x70\x2E\x6A\x73","\x6D\x6F\x75\x73\x65\x6D\x6F\x76\x65","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x63\x6C\x69\x65\x6E\x74\x58","\x63\x6C\x69\x65\x6E\x74\x59","\x73\x65\x74\x53\x69\x7A\x65","\x6D\x61\x72\x67\x69\x6E\x4C\x65\x66\x74","\x73\x74\x79\x6C\x65","\x64\x6F\x6D\x45\x6C\x65\x6D\x65\x6E\x74","\x38\x25","\x6D\x61\x72\x67\x69\x6E\x52\x69\x67\x68\x74","\x61\x75\x74\x6F","\x73\x65\x74\x46\x61\x63\x65\x43\x75\x6C\x6C\x69\x6E\x67","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x64\x65\x6D\x6F\x5F\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x65\x6E\x61\x62\x6C\x65\x64","\x73\x68\x61\x64\x6F\x77\x4D\x61\x70","\x74\x79\x70\x65","\x50\x43\x46\x53\x6F\x66\x74\x53\x68\x61\x64\x6F\x77\x4D\x61\x70","\x6F\x6E\x6B\x65\x79\x75\x70","\x6B\x65\x79\x43\x6F\x64\x65","\x77\x68\x69\x63\x68","\x69\x6E\x74\x65\x6E\x73\x69\x74\x79","\x73\x68\x61\x64\x6F\x77\x4D\x61\x70\x41\x75\x74\x6F\x55\x70\x64\x61\x74\x65","\x63\x6C\x65\x61\x72\x54\x61\x72\x67\x65\x74","\x72\x65\x6E\x64\x65\x72"];var scene= new THREE.Scene();var camera= new THREE.PerspectiveCamera(75,window[_0xc15f[0]]/window[_0xc15f[1]],0.1,1000);camera[_0xc15f[3]][_0xc15f[2]]=14;camera[_0xc15f[3]][_0xc15f[4]]=30;var loader= new THREE.JSONLoader();var ambient= new THREE.AmbientLight(0x404040);scene[_0xc15f[5]](ambient);var groundTex=THREE[_0xc15f[8]][_0xc15f[7]](_0xc15f[6]);groundTex[_0xc15f[9]]=THREE[_0xc15f[10]];groundTex[_0xc15f[11]]=THREE[_0xc15f[10]];groundTex[_0xc15f[13]][_0xc15f[12]]=256;groundTex[_0xc15f[13]][_0xc15f[2]]=256;var groundMat= new THREE.MeshPhongMaterial({map:groundTex});groundMat[_0xc15f[14]]=true;var groundGeo= new THREE.PlaneGeometry(400,400);var ground= new THREE.Mesh(groundGeo,groundMat);ground[_0xc15f[15]]=true;ground[_0xc15f[16]]=true;ground[_0xc15f[3]][_0xc15f[2]]=0;ground[_0xc15f[17]][_0xc15f[12]]=-Math[_0xc15f[18]]/2;ground[_0xc15f[19]]=true;scene[_0xc15f[5]](ground);var ceilingmat= new THREE.MeshPhongMaterial({color:0x808080});ceilingmat[_0xc15f[14]]=true;ceilingmat[_0xc15f[20]]=THREE[_0xc15f[21]];var ceilingGeo= new THREE.PlaneGeometry(400,400);var ceiling= new THREE.Mesh(groundGeo,ceilingmat);ceiling[_0xc15f[15]]=true;ceiling[_0xc15f[16]]=true;ceiling[_0xc15f[3]][_0xc15f[2]]=32;ceiling[_0xc15f[17]][_0xc15f[12]]=-Math[_0xc15f[18]]/2;scene[_0xc15f[5]](ceiling);var wallTex=THREE[_0xc15f[8]][_0xc15f[7]](_0xc15f[22]);var wallMat= new THREE.MeshPhongMaterial({map:wallTex});wallMat[_0xc15f[14]]=true;var wallGeo= new THREE.PlaneGeometry(80,80);var wall_face= new THREE.Mesh(wallGeo,wallMat);wall_face[_0xc15f[15]]=true;wall_face[_0xc15f[16]]=true;wall_face[_0xc15f[3]][_0xc15f[4]]= -15;wall_face[_0xc15f[17]][_0xc15f[4]]=-Math[_0xc15f[18]]/2;wall_face[_0xc15f[19]]=true;scene[_0xc15f[5]](wall_face);var wall_right= new THREE.Mesh(wallGeo,wallMat);wall_right[_0xc15f[15]]=true;wall_right[_0xc15f[16]]=true;wall_right[_0xc15f[3]][_0xc15f[12]]=38;wall_right[_0xc15f[17]][_0xc15f[2]]=-Math[_0xc15f[18]]/2;wall_right[_0xc15f[19]]=true;scene[_0xc15f[5]](wall_right);var wall_left= new THREE.Mesh(wallGeo,wallMat);wall_left[_0xc15f[15]]=true;wall_left[_0xc15f[16]]=true;wall_left[_0xc15f[3]][_0xc15f[12]]= -38;wall_left[_0xc15f[17]][_0xc15f[2]]=Math[_0xc15f[18]]/2;wall_left[_0xc15f[19]]=true;scene[_0xc15f[5]](wall_left);var carpetmat= new THREE.MeshPhongMaterial({color:0x005166});carpetmat[_0xc15f[14]]=true;carpetmat[_0xc15f[20]]=THREE[_0xc15f[21]];var carpetgeo= new THREE.PlaneGeometry(16,12);var carpet= new THREE.Mesh(carpetgeo,carpetmat);carpet[_0xc15f[15]]=true;carpet[_0xc15f[16]]=true;carpet[_0xc15f[3]][_0xc15f[2]]=0.1;carpet[_0xc15f[3]][_0xc15f[12]]=13;carpet[_0xc15f[3]][_0xc15f[4]]=5;carpet[_0xc15f[17]][_0xc15f[12]]=-Math[_0xc15f[18]]/2;scene[_0xc15f[5]](carpet);loader[_0xc15f[26]](_0xc15f[23],function(_0xdf9ax15,_0xdf9ax16){mesh= new THREE.Mesh(_0xdf9ax15, new THREE.MeshPhongMaterial({color:0x008080}));mesh[_0xc15f[25]][_0xc15f[24]](10,10,10);mesh[_0xc15f[3]][_0xc15f[24]](13,0,-5);mesh[_0xc15f[17]][_0xc15f[2]]+=10.9;mesh[_0xc15f[17]][_0xc15f[4]]+=0.0;mesh[_0xc15f[15]]=true;mesh[_0xc15f[16]]=true;scene[_0xc15f[5]](mesh);});loader[_0xc15f[26]](_0xc15f[27],function(_0xdf9ax15,_0xdf9ax16){mesh= new THREE.Mesh(_0xdf9ax15, new THREE.MeshPhongMaterial({color:0x808080}));mesh[_0xc15f[25]][_0xc15f[24]](8,8,8);mesh[_0xc15f[3]][_0xc15f[24]](13,0,5);mesh[_0xc15f[16]]=true;mesh[_0xc15f[15]]=true;mesh[_0xc15f[28]][_0xc15f[20]]=THREE[_0xc15f[21]];scene[_0xc15f[5]](mesh);});loader[_0xc15f[26]](_0xc15f[29],function(_0xdf9ax15,_0xdf9ax16){mesh= new THREE.Mesh(_0xdf9ax15, new THREE.MeshPhongMaterial({color:0x808080}));mesh[_0xc15f[25]][_0xc15f[24]](8,8,8);mesh[_0xc15f[3]][_0xc15f[24]](-16,0,5);mesh[_0xc15f[16]]=true;mesh[_0xc15f[15]]=false;mesh[_0xc15f[17]][_0xc15f[2]]+=10.9;mesh[_0xc15f[28]][_0xc15f[20]]=THREE[_0xc15f[21]];scene[_0xc15f[5]](mesh);});loader[_0xc15f[26]](_0xc15f[30],function(_0xdf9ax15,_0xdf9ax16){mesh= new THREE.Mesh(_0xdf9ax15, new THREE.MeshLambertMaterial({color:0x808080}));mesh[_0xc15f[25]][_0xc15f[24]](1,1,1);mesh[_0xc15f[3]][_0xc15f[24]](-32,0,-5);mesh[_0xc15f[16]]=true;mesh[_0xc15f[15]]=false;mesh[_0xc15f[17]][_0xc15f[2]]+=14;mesh[_0xc15f[28]][_0xc15f[20]]=THREE[_0xc15f[21]];scene[_0xc15f[5]](mesh);});loader[_0xc15f[26]](_0xc15f[31],function(_0xdf9ax15,_0xdf9ax16){mesh= new THREE.Mesh(_0xdf9ax15, new THREE.MeshPhongMaterial({color:0xFFFFFF}));mesh[_0xc15f[25]][_0xc15f[24]](10,10,14);mesh[_0xc15f[3]][_0xc15f[24]](-24,0,-15);mesh[_0xc15f[16]]=true;mesh[_0xc15f[15]]=false;mesh[_0xc15f[17]][_0xc15f[2]]+=11;mesh[_0xc15f[28]][_0xc15f[20]]=THREE[_0xc15f[21]];scene[_0xc15f[5]](mesh);});var ShadowingLight1= new THREE.SpotLight(0xFFAA88,1.0,1.0,80);ShadowingLight1[_0xc15f[32]][_0xc15f[3]][_0xc15f[24]](0,-20,0);ShadowingLight1[_0xc15f[33]]=true;ShadowingLight1[_0xc15f[16]]=true;ShadowingLight1[_0xc15f[34]]=0.5;ShadowingLight1[_0xc15f[35]]=false;ShadowingLight1[_0xc15f[36]]=8;ShadowingLight1[_0xc15f[37]]=50;scene[_0xc15f[5]](ShadowingLight1);scene[_0xc15f[5]](ShadowingLight1[_0xc15f[32]]);var ShadowingLight2= new THREE.SpotLight(0xFFAA88,1.0,1.0,80);ShadowingLight2[_0xc15f[32]][_0xc15f[3]][_0xc15f[24]](0,-20,0);ShadowingLight2[_0xc15f[33]]=true;ShadowingLight2[_0xc15f[16]]=true;ShadowingLight2[_0xc15f[34]]=0.5;ShadowingLight2[_0xc15f[35]]=false;ShadowingLight2[_0xc15f[36]]=8;ShadowingLight2[_0xc15f[37]]=50;scene[_0xc15f[5]](ShadowingLight2);scene[_0xc15f[5]](ShadowingLight2[_0xc15f[32]]);var LampPointLight= new THREE.PointLight(0xFFAA88,1.0,50,1.0);scene[_0xc15f[5]](LampPointLight);var LampPointLight2= new THREE.PointLight(0xFFAA88,1.5,70,1.0);scene[_0xc15f[5]](LampPointLight2);var small_lamp1_tex= new THREE[_0xc15f[8]][_0xc15f[7]](_0xc15f[38]);loader[_0xc15f[26]](_0xc15f[39],function(_0xdf9ax15,_0xdf9ax16){small_lamp1= new THREE.Mesh(_0xdf9ax15, new THREE.MeshPhongMaterial({map:small_lamp1_tex}));small_lamp1[_0xc15f[25]][_0xc15f[24]](1,1,1);small_lamp1[_0xc15f[3]][_0xc15f[24]](0,6,0);small_lamp1[_0xc15f[40]]=1.2;small_lamp1[_0xc15f[41]]=24;small_lamp1[_0xc15f[42]]=0;small_lamp1[_0xc15f[43]]=1;small_lamp1[_0xc15f[44]]=4;small_lamp1[_0xc15f[45]]=0;small_lamp1[_0xc15f[46]]=2;small_lamp1[_0xc15f[47]]=1;small_lamp1[_0xc15f[48]]=2;small_lamp1[_0xc15f[28]][_0xc15f[49]]= new THREE.Color(0.4,0.4,0.4);small_lamp1[_0xc15f[50]]=true;small_lamp1[_0xc15f[28]][_0xc15f[20]]=THREE[_0xc15f[21]];scene[_0xc15f[5]](small_lamp1);});loader[_0xc15f[26]](_0xc15f[51],function(_0xdf9ax15,_0xdf9ax16){lamp2= new THREE.Mesh(_0xdf9ax15, new THREE.MeshPhongMaterial({map:wallTex}));lamp2[_0xc15f[25]][_0xc15f[24]](8,8,8);lamp2[_0xc15f[3]][_0xc15f[24]](30,0.2,-10);lamp2[_0xc15f[40]]=1.2;lamp2[_0xc15f[41]]=24;lamp2[_0xc15f[42]]=0;lamp2[_0xc15f[43]]=1;lamp2[_0xc15f[44]]=10;lamp2[_0xc15f[45]]=0;lamp2[_0xc15f[46]]=2;lamp2[_0xc15f[47]]=1;lamp2[_0xc15f[48]]=2;lamp2[_0xc15f[28]][_0xc15f[49]]= new THREE.Color(0.4,0.4,0.4);lamp2[_0xc15f[50]]=false;lamp2[_0xc15f[28]][_0xc15f[20]]=THREE[_0xc15f[21]];scene[_0xc15f[5]](lamp2);});document[_0xc15f[53]](_0xc15f[52],onDocumentMouseMove,false);function onDocumentMouseMove(_0xdf9ax1d){mouseX=(_0xdf9ax1d[_0xc15f[54]]-window[_0xc15f[0]]/2);mouseY=(_0xdf9ax1d[_0xc15f[55]]-window[_0xc15f[1]]/2);}var renderer= new THREE.WebGLRenderer();renderer[_0xc15f[56]](window[_0xc15f[0]]/2,window[_0xc15f[1]]/2);renderer[_0xc15f[59]][_0xc15f[58]][_0xc15f[57]]=_0xc15f[60];renderer[_0xc15f[59]][_0xc15f[58]][_0xc15f[61]]=_0xc15f[62];renderer[_0xc15f[63]](THREE.CullFaceNone);document[_0xc15f[66]](_0xc15f[65])[_0xc15f[64]](renderer[_0xc15f[59]]);function render(){requestAnimationFrame(render);renderer[_0xc15f[68]][_0xc15f[67]]=true;renderer[_0xc15f[68]][_0xc15f[69]]=THREE[_0xc15f[70]];var _0xdf9ax20;if(small_lamp1[_0xc15f[50]]==true){_0xdf9ax20=small_lamp1}else {if(lamp2[_0xc15f[50]]==true){_0xdf9ax20=lamp2}else {_0xdf9ax20=0}};if(_0xdf9ax20!=0){if(mouseX<730&&mouseX> -730){_0xdf9ax20[_0xc15f[3]][_0xc15f[12]]=mouseX/20};if(mouseY<400&&mouseY> -290){_0xdf9ax20[_0xc15f[3]][_0xc15f[4]]=mouseY/20};ShadowingLight1[_0xc15f[3]][_0xc15f[24]](small_lamp1[_0xc15f[3]][_0xc15f[12]]+small_lamp1[_0xc15f[40]],small_lamp1[_0xc15f[3]][_0xc15f[2]]+small_lamp1[_0xc15f[41]],small_lamp1[_0xc15f[3]][_0xc15f[4]]+small_lamp1[_0xc15f[42]]);ShadowingLight1[_0xc15f[32]][_0xc15f[3]][_0xc15f[24]](small_lamp1[_0xc15f[3]][_0xc15f[12]],ShadowingLight1[_0xc15f[32]][_0xc15f[3]][_0xc15f[2]],small_lamp1[_0xc15f[3]][_0xc15f[4]]);LampPointLight[_0xc15f[3]][_0xc15f[24]](small_lamp1[_0xc15f[3]][_0xc15f[12]]+small_lamp1[_0xc15f[43]],small_lamp1[_0xc15f[3]][_0xc15f[2]]+small_lamp1[_0xc15f[44]],small_lamp1[_0xc15f[3]][_0xc15f[4]]+small_lamp1[_0xc15f[45]]);ShadowingLight2[_0xc15f[3]][_0xc15f[24]](lamp2[_0xc15f[3]][_0xc15f[12]]+lamp2[_0xc15f[40]],lamp2[_0xc15f[3]][_0xc15f[2]]+lamp2[_0xc15f[41]],lamp2[_0xc15f[3]][_0xc15f[4]]+lamp2[_0xc15f[42]]);ShadowingLight2[_0xc15f[32]][_0xc15f[3]][_0xc15f[24]](lamp2[_0xc15f[3]][_0xc15f[12]],ShadowingLight2[_0xc15f[32]][_0xc15f[3]][_0xc15f[2]],lamp2[_0xc15f[3]][_0xc15f[4]]);LampPointLight2[_0xc15f[3]][_0xc15f[24]](lamp2[_0xc15f[3]][_0xc15f[12]]+lamp2[_0xc15f[43]],lamp2[_0xc15f[3]][_0xc15f[2]]+lamp2[_0xc15f[44]],lamp2[_0xc15f[3]][_0xc15f[4]]+lamp2[_0xc15f[45]]);};window[_0xc15f[71]]=function(_0xdf9ax21){var _0xdf9ax22=_0xdf9ax21[_0xc15f[72]]?_0xdf9ax21[_0xc15f[72]]:_0xdf9ax21[_0xc15f[73]];if(_0xdf9ax22==65){if(_0xdf9ax20==small_lamp1){if(LampPointLight[_0xc15f[74]]!=0){LampPointLight[_0xc15f[74]]=0;ShadowingLight1[_0xc15f[16]]=false;small_lamp1[_0xc15f[28]][_0xc15f[49]]= new THREE.Color(0.0,0.0,0.0);renderer[_0xc15f[75]]=false;renderer[_0xc15f[76]](ShadowingLight1[_0xc15f[68]]);}else {LampPointLight[_0xc15f[74]]=1.4;small_lamp1[_0xc15f[28]][_0xc15f[49]]= new THREE.Color(0.4,0.4,0.4);ShadowingLight1[_0xc15f[16]]=true;renderer[_0xc15f[75]]=true;scene[_0xc15f[5]](ShadowingLight1);}}else {if(_0xdf9ax20==lamp2){if(LampPointLight2[_0xc15f[74]]!=0){LampPointLight2[_0xc15f[74]]=0;lamp2[_0xc15f[28]][_0xc15f[49]]= new THREE.Color(0.0,0.0,0.0);ShadowingLight2[_0xc15f[16]]=false;renderer[_0xc15f[75]]=false;renderer[_0xc15f[76]](ShadowingLight2[_0xc15f[68]]);}else {LampPointLight2[_0xc15f[74]]=1.4;lamp2[_0xc15f[28]][_0xc15f[49]]= new THREE.Color(0.4,0.4,0.4);ShadowingLight2[_0xc15f[16]]=true;renderer[_0xc15f[75]]=true;}}}}else {if(_0xdf9ax22==49){if(small_lamp1[_0xc15f[50]]==false){small_lamp1[_0xc15f[50]]=true;lamp2[_0xc15f[50]]=false;}else {small_lamp1[_0xc15f[50]]=false;lamp2[_0xc15f[50]]=false;}}else {if(_0xdf9ax22==50){if(lamp2[_0xc15f[50]]==false){lamp2[_0xc15f[50]]=true;small_lamp1[_0xc15f[50]]=false;}else {lamp2[_0xc15f[50]]=false;small_lamp1[_0xc15f[50]]=false;}}else {if(_0xdf9ax22==66){if(small_lamp1[_0xc15f[50]]==true){small_lamp1[_0xc15f[50]]=false;lamp2[_0xc15f[50]]=true;}else {if(lamp2[_0xc15f[50]]==true){lamp2[_0xc15f[50]]=false}else {small_lamp1[_0xc15f[50]]=true}}}else {if(_0xdf9ax22==67){small_lamp1[_0xc15f[50]]=false;lamp2[_0xc15f[50]]=false;}else {if(_0xdf9ax22==37){}else {if(_0xdf9ax22==38){if(_0xdf9ax20[_0xc15f[3]][_0xc15f[2]]-_0xdf9ax20[_0xc15f[47]]<20){_0xdf9ax20[_0xc15f[3]][_0xc15f[2]]+=1}}else {if(_0xdf9ax22==39){}else {if(_0xdf9ax22==40){if(_0xdf9ax20[_0xc15f[3]][_0xc15f[2]]-_0xdf9ax20[_0xc15f[47]]>0){_0xdf9ax20[_0xc15f[3]][_0xc15f[2]]-=1}}}}}}}}}};};renderer[_0xc15f[77]](scene,camera);}render();
+					var scene = new THREE.Scene();
+					var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+					// CAMERA  set cam pos
+						//camera.position.x = 0;
+						camera.position.y = 14;
+						camera.position.z = 30;
+
+					// LOAD MODEL
+					// instantiate a loader
+						var loader = new THREE.JSONLoader();
+
+					// SCENE BASE Light
+						var ambient = new THREE.AmbientLight(0x404040);
+						scene.add(ambient);
+
+					// ADD SCENE
+						// add ground
+						var groundTex = THREE.ImageUtils.loadTexture('textures/TileableWoodLarge.jpg'); 
+						groundTex.wrapS = THREE.RepeatWrapping; 
+						groundTex.wrapT = THREE.RepeatWrapping; 
+						groundTex.repeat.x = 256; 
+						groundTex.repeat.y = 256; 
+						var groundMat = new THREE.MeshPhongMaterial({map:groundTex});
+						groundMat.wrapAround = true;
+						var groundGeo = new THREE.PlaneGeometry(400,400);
+
+						var ground = new THREE.Mesh(groundGeo, groundMat);
+						ground.receiveShadow = true;
+						ground.castShadow = true;
+						ground.position.y = 0; //lower it 
+						ground.rotation.x = -Math.PI / 2; //-90 degrees around the xaxis 
+						ground.doubleSided = true;
+						scene.add(ground);
+
+						// add ceiling
+						var ceilingmat = new THREE.MeshPhongMaterial({color:0x808080});
+						ceilingmat.wrapAround = true;
+						ceilingmat.side = THREE.DoubleSide;
+						var ceilingGeo = new THREE.PlaneGeometry(400,400);
+
+						var ceiling = new THREE.Mesh(groundGeo, ceilingmat);
+						ceiling.receiveShadow = true;
+						ceiling.castShadow = true;
+						ceiling.position.y = 32; // up it 
+						ceiling.rotation.x = -Math.PI / 2; 
+						scene.add(ceiling);
+
+						// add walls set properties.
+						var wallTex = THREE.ImageUtils.loadTexture('textures/papier_peint_1.jpg');
+						var wallMat = new THREE.MeshPhongMaterial({map:wallTex});
+						wallMat.wrapAround = true;
+						var wallGeo = new THREE.PlaneGeometry(80, 80);
+
+						// add wall 1 FACE
+						var wall_face = new THREE.Mesh(wallGeo, wallMat);
+						wall_face.receiveShadow = true;
+						wall_face.castShadow = true;
+						wall_face.position.z = -15; // put it far from the screen
+						wall_face.rotation.z = -Math.PI / 2;
+						wall_face.doubleSided = true;
+						scene.add(wall_face);
+
+						// add wall 2 RIGHT
+						var wall_right = new THREE.Mesh(wallGeo, wallMat);
+						wall_right.receiveShadow = true;
+						wall_right.castShadow = true;
+						wall_right.position.x = 38;
+						wall_right.rotation.y = -Math.PI / 2;
+						wall_right.doubleSided = true;
+						scene.add(wall_right);
+
+						// add wall 3 LEFT
+						var wall_left = new THREE.Mesh(wallGeo, wallMat);
+						wall_left.receiveShadow = true;
+						wall_left.castShadow = true;
+						wall_left.position.x = -38; 
+						wall_left.rotation.y = Math.PI / 2;
+						wall_left.doubleSided = true;
+						scene.add(wall_left);
+
+					// load models -- > decors
+						// carpet
+						var carpetmat = new THREE.MeshPhongMaterial({color:0x005166});
+						carpetmat.wrapAround = true;
+						carpetmat.side = THREE.DoubleSide;
+						var carpetgeo = new THREE.PlaneGeometry(16, 12);
+
+						var carpet = new THREE.Mesh(carpetgeo, carpetmat);
+						carpet.receiveShadow = true;
+						carpet.castShadow = true;
+						carpet.position.y = 0.1; // tout pres du sol
+						carpet.position.x = 13; 
+						carpet.position.z = 5; 
+						carpet.rotation.x = -Math.PI / 2;
+						scene.add(carpet);
+						// sofa
+						loader.load(
+							// resource URL
+							'models/Sofa3.js',
+							// Function when resource is loaded
+							function ( geometry, materials ) {
+								mesh = new THREE.Mesh( geometry, new THREE.MeshPhongMaterial( {color: 0x008080} ) );
+								mesh.scale.set( 10, 10, 10 );
+								mesh.position.set( 13, 0, -5 );
+								mesh.rotation.y += 10.9;
+								mesh.rotation.z += 0.0;
+								mesh.receiveShadow = true;
+								mesh.castShadow = true;
+								scene.add( mesh );
+							}
+						);
+
+						// table basse.
+						loader.load(
+							// resource URL
+							'models/Low_table2.js',
+							// Function when resource is loaded
+							function ( geometry, materials ) {
+								mesh = new THREE.Mesh( geometry, new THREE.MeshPhongMaterial( {color: 0x808080} ) );
+								mesh.scale.set( 8, 8, 8 );
+								mesh.position.set( 13, 0, 5 );
+								mesh.castShadow = true;
+								mesh.receiveShadow = true;
+								mesh.material.side = THREE.DoubleSide;
+								// mesh.rotation.y += 30.0;
+								scene.add( mesh );
+							}
+						);
+
+						// table.
+						loader.load(
+							// resource URL
+							'models/white_kitchen_table.js',
+							// Function when resource is loaded
+							function ( geometry, materials ) {
+								mesh = new THREE.Mesh( geometry, new THREE.MeshPhongMaterial( {color: 0x808080} ) );
+								mesh.scale.set( 8, 8, 8 );
+								mesh.position.set( -16, 0, 5 );
+								mesh.castShadow = true;
+								mesh.receiveShadow = false;
+								mesh.rotation.y += 10.9;
+								mesh.material.side = THREE.DoubleSide;
+								// mesh.rotation.y += 30.0;
+								scene.add( mesh );
+							}
+						);
+
+						// shelf.
+						loader.load(
+							// resource URL
+							'models/kids_shelves.js',
+							// Function when resource is loaded
+							function ( geometry, materials ) {
+								mesh = new THREE.Mesh( geometry, new THREE.MeshLambertMaterial( {color: 0x808080} ) );
+								mesh.scale.set( 1, 1, 1 );
+								mesh.position.set( -32, 0, -5 );
+								mesh.castShadow = true;
+								mesh.receiveShadow = false;
+								mesh.rotation.y += 14;
+								mesh.material.side = THREE.DoubleSide;
+								//mesh.doubleSided = true;
+								// mesh.rotation.y += 30.0;
+								scene.add( mesh );
+							}
+						);
+
+						// fridge.
+						loader.load(
+							// resource URL
+							'models/fridge.js',
+							// Function when resource is loaded
+							function ( geometry, materials ) {
+								mesh = new THREE.Mesh( geometry, new THREE.MeshPhongMaterial( {color: 0xFFFFFF} ) );
+								mesh.scale.set( 10, 10, 14 );
+								mesh.position.set( -24, 0, -15 );
+								mesh.castShadow = true;
+								mesh.receiveShadow = false;
+								mesh.rotation.y += 11;
+								mesh.material.side = THREE.DoubleSide;
+								//mesh.doubleSided = true;
+								// mesh.rotation.y += 30.0;
+								scene.add( mesh );
+							}
+						);
+
+					// ITEM LIGHTS
+
+					// Shadowing light 1
+						var ShadowingLight1 = new THREE.SpotLight(0xFFAA88, 1.0, 1.0, 80); // (hex, intensity, distance, angle, exponent, decay)
+						ShadowingLight1.target.position.set( 0, -20, 0 );
+						ShadowingLight1.onlyShadow = true;
+						ShadowingLight1.castShadow = true;
+						ShadowingLight1.shadowDarkness = 0.5;
+						ShadowingLight1.shadowCameraVisible = false; // a enlever pour effacer traits
+
+						ShadowingLight1.shadowCameraNear = 8;
+						//ShadowingLight1.shadowCameraLeft = -5
+			 			ShadowingLight1.shadowCameraFar = 50;
+
+						scene.add(ShadowingLight1);
+						scene.add(ShadowingLight1.target);
+
+						// Shadowing light 2
+						var ShadowingLight2 = new THREE.SpotLight(0xFFAA88, 1.0, 1.0, 80); // (hex, intensity, distance, angle, exponent, decay)
+						ShadowingLight2.target.position.set( 0, -20, 0 );
+						ShadowingLight2.onlyShadow = true;
+						ShadowingLight2.castShadow = true;
+						ShadowingLight2.shadowDarkness = 0.5;
+						ShadowingLight2.shadowCameraVisible = false; // a enlever pour effacer traits
+
+						ShadowingLight2.shadowCameraNear = 8;
+						//ShadowingLight2.shadowCameraLeft = -5
+			 			ShadowingLight2.shadowCameraFar = 50;
+
+						scene.add(ShadowingLight2);
+						scene.add(ShadowingLight2.target);
+
+
+					// lamp point light 1
+						var LampPointLight = new THREE.PointLight(0xFFAA88, 1.0, 50, 1.0); // hex, intensity, distance, decay
+						scene.add(LampPointLight);
+
+					// lamp point light 2
+						var LampPointLight2 = new THREE.PointLight(0xFFAA88, 1.5, 70, 1.0); // hex, intensity, distance, decay
+							scene.add(LampPointLight2);
+					// LAMPS MODELS
+					// small_lamp1
+					var small_lamp1_tex = new THREE.ImageUtils.loadTexture("/models/table_lamp_obj/pantalla_color.jpg");
+					loader.load(
+						// resource URL
+						'models/table_lamp_obj/table_lamp.js',
+						// Function when resource is loaded
+						function ( geometry, materials ) {
+							small_lamp1 = new THREE.Mesh( geometry, new THREE.MeshPhongMaterial( {map:small_lamp1_tex} ) );
+							small_lamp1.scale.set( 1, 1, 1 );
+							small_lamp1.position.set( 0, 6, 0 );
+							// small_lamp1 datas.
+							small_lamp1.slight_x_set = 1.2;
+							small_lamp1.slight_y_set = 24;
+							small_lamp1.slight_z_set = 0;
+							small_lamp1.plight_x_set = 1;
+							small_lamp1.plight_y_set = 4;
+							small_lamp1.plight_z_set = 0;
+
+							small_lamp1.shape_x_set = 2;
+							small_lamp1.shape_y_set = 1;
+							small_lamp1.shape_z_set = 2;
+							small_lamp1.material.emissive = new THREE.Color( 0.4, 0.4, 0.4 );
+							small_lamp1.active = true;
+							small_lamp1.material.side = THREE.DoubleSide;
+							//small_lamp1.castShadow = true;
+							scene.add( small_lamp1 );
+						}
+					);
+
+					// lamp2
+					loader.load(
+						// resource URL
+						'models/living_lamp.js',
+						// Function when resource is loaded
+						function ( geometry, materials ) {
+							lamp2 = new THREE.Mesh( geometry, new THREE.MeshPhongMaterial( {map:wallTex} ) );
+							lamp2.scale.set( 8, 8, 8 );
+							lamp2.position.set( 30, 0.2, -10 );
+							// lamp2 datas.
+							lamp2.slight_x_set = 1.2;
+							lamp2.slight_y_set = 24;
+							lamp2.slight_z_set = 0;
+							lamp2.plight_x_set = 1;
+							lamp2.plight_y_set = 10;
+							lamp2.plight_z_set = 0;
+
+							lamp2.shape_x_set = 2;
+							lamp2.shape_y_set = 1;
+							lamp2.shape_z_set = 2;
+							lamp2.material.emissive = new THREE.Color( 0.4, 0.4, 0.4 );
+							lamp2.active = false;
+							lamp2.material.side = THREE.DoubleSide;
+							//lamp2.castShadow = true;
+							scene.add( lamp2 );
+						}
+					);
+					// mouse mouvement
+					document.addEventListener(
+						'mousemove',
+						onDocumentMouseMove,
+						false
+					);
+					
+					function onDocumentMouseMove(event) {
+						mouseX = (event.clientX - window.innerWidth / 2);					
+						mouseY = (event.clientY - window.innerHeight / 2);
+					}
+
+					// ---------------- renderer.
+					var renderer = new THREE.WebGLRenderer();
+					renderer.setSize(75 * window.innerWidth / 100, 75 * window.innerHeight / 100 );
+					renderer.domElement.style.marginLeft = "15%";
+					renderer.domElement.style.marginRight = "auto";
+					renderer.setFaceCulling( THREE.CullFaceNone );
+					document.getElementById("demo_container").appendChild( renderer.domElement );
+
+					function render() {
+						requestAnimationFrame( render );
+						renderer.shadowMap.enabled = true;
+						renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+						var active_lamp;
+						if (small_lamp1.active == true)
+							active_lamp = small_lamp1;
+						else if (lamp2.active == true)
+							 active_lamp = lamp2;
+						else
+							active_lamp = 0;
+
+						if (active_lamp != 0)
+						{
+						// mouse object deplacement
+						if (mouseX < 730 && mouseX > -730)
+							active_lamp.position.x = mouseX / 20;
+							// active_lamp.position.x -= 1;
+						if (mouseY < 400 && mouseY > -290)
+							active_lamp.position.z = mouseY / 20;
+						// Lights positionnings.
+							// sl1 pos
+							ShadowingLight1.position.set(small_lamp1.position.x + small_lamp1.slight_x_set, small_lamp1.position.y + small_lamp1.slight_y_set, small_lamp1.position.z + small_lamp1.slight_z_set);
+							// sl1 target pos
+							ShadowingLight1.target.position.set(small_lamp1.position.x, ShadowingLight1.target.position.y, small_lamp1.position.z);
+							// pl1 pos
+							LampPointLight.position.set(small_lamp1.position.x + small_lamp1.plight_x_set, small_lamp1.position.y + small_lamp1.plight_y_set, small_lamp1.position.z + small_lamp1.plight_z_set);
+
+						// light for lamp2
+							// sl2 pos
+							ShadowingLight2.position.set(lamp2.position.x + lamp2.slight_x_set, lamp2.position.y + lamp2.slight_y_set, lamp2.position.z + lamp2.slight_z_set);
+							// sl2 target pos
+							ShadowingLight2.target.position.set(lamp2.position.x, ShadowingLight2.target.position.y, lamp2.position.z);
+							// pl2 pos
+							LampPointLight2.position.set(lamp2.position.x + lamp2.plight_x_set, lamp2.position.y + lamp2.plight_y_set, lamp2.position.z + lamp2.plight_z_set);
+						}
+
+						window.onkeyup = function(e) {
+							var key = e.keyCode ? e.keyCode : e.which;
+
+							if (key == 65) { // boutton a
+								if (active_lamp == small_lamp1)
+								{
+									if (LampPointLight.intensity != 0)
+									{
+										// disable small_lamp1
+										LampPointLight.intensity = 0;
+										small_lamp1.slight_x_set += 200;
+										small_lamp1.material.emissive = new THREE.Color( 0.0, 0.0, 0.0 );
+									}
+									else
+									{
+										// enable small_lamp1
+										LampPointLight.intensity = 1.4;
+										small_lamp1.slight_x_set -= 200;
+										small_lamp1.material.emissive = new THREE.Color( 0.4, 0.4, 0.4 );
+									}
+								}
+								else if (active_lamp == lamp2)
+								{
+									if (LampPointLight2.intensity != 0)
+									{
+										// disable lamp2
+										LampPointLight2.intensity = 0;
+										lamp2.slight_x_set += 200;
+										lamp2.material.emissive = new THREE.Color( 0.0, 0.0, 0.0 );
+									}
+									else
+									{
+										// enable lamp2
+										LampPointLight2.intensity = 1.4;
+										lamp2.slight_x_set -= 200;
+										lamp2.material.emissive = new THREE.Color( 0.4, 0.4, 0.4 );
+									}
+								}
+							}
+							else if (key == 49) { // bouton 1
+								if (small_lamp1.active == false)
+								{
+									small_lamp1.active = true;
+									lamp2.active = false;
+								}
+								else
+								{
+									small_lamp1.active = false;
+									lamp2.active = false;
+								}
+							}
+							else if (key == 50) { // bouton 2
+								if (lamp2.active == false)
+								{
+									lamp2.active = true;
+									small_lamp1.active = false;
+								}
+								else
+								{
+									lamp2.active = false;
+									small_lamp1.active = false;
+								}
+							}
+							else if (key == 66) {  // boutton b
+								if (small_lamp1.active == true)
+								{
+									small_lamp1.active = false;
+									lamp2.active = true;
+								}
+								else if (lamp2.active == true)
+									lamp2.active = false;
+								else
+									small_lamp1.active = true;
+							}
+							else if (key == 67) {  // boutton c
+								small_lamp1.active = false;
+								lamp2.active = false;
+							}
+							else if (key == 37) {  // left
+
+							}
+							else if (key == 69) {  // up -> E
+								if (active_lamp.position.y - active_lamp.shape_y_set < 20)
+									active_lamp.position.y += 1;
+							}
+							else if (key == 39) {  // right
+
+							}
+							else if (key == 68) {  // down -> D
+								if (active_lamp.position.y - active_lamp.shape_y_set > 0)
+									active_lamp.position.y -= 1;
+							}
+						}
+						renderer.render( scene, camera );
+					}
+					render();
 				</script>
 			</div>
+			<div id="body_container">
 			<div id="howoto_container">
 				<p class="text_strong">Commandes :</p>
 				<p>Touche 1 : sélectionner/désélectionner la lampe 1.
@@ -23,10 +460,9 @@
 				<br />Touche C : désélectionner toutes les lampes.
 				<br />Touche A : éteindre la lumière de la lampe sélectionnée.
 				<!-- <p>Touche B : changer la lampe active. (Lampe 1 / Lampe 2 / Aucune lampe). -->
-				
 				<br />Souris : déplacer la lampe sélectionnée.
-				<br />Flèche haut : élever la lampe sélectionnée.
-				<br />Flèche bas : faire descendre la lampe sélectionnée.
+				<br />Touche E : élever la lampe sélectionnée.
+				<br />Touche D : faire descendre la lampe sélectionnée.
 				<br />
 				<br />
 				</p>
